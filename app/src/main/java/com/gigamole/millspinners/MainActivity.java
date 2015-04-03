@@ -24,7 +24,6 @@ import android.view.View;
 
 import com.gigamole.millspinners.lib.MultiArcSpinner;
 
-
 public class MainActivity extends ActionBarActivity {
 
     @Override
