@@ -25,3 +25,14 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.0.0'
     compile project(':library')
 }
+
+//dependencies {
+//    repositories {
+//        mavenCentral()
+//        maven {
+//            url 'http://dl.bintray.com/gigamole/maven/'
+//        }
+//    }
+//
+//    compile 'com.github.gigamole.millspinners:library:+'
+//}
