@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_colors">
+        <item>@color/arc_1</item>
+        <item>@color/arc_2</item>
+        <item>@color/arc_3</item>
+        <item>@color/arc_4</item>
+        <item>@color/arc_5</item>
+        <item>@color/arc_6</item>
+        <item>@color/arc_7</item>
+        <item>@color/arc_8</item>
+    </array>
+
+    <array name="cool_colors">
+        <item>@color/cool_1</item>
+        <item>@color/cool_2</item>
+        <item>@color/cool_3</item>
+        <item>@color/cool_4</item>
+        <item>@color/cool_5</item>
+        <item>@color/cool_6</item>
+        <item>@color/cool_7</item>
+        <item>@color/cool_8</item>
+    </array>
+
+    <array name="rebirth_colors">
+        <item>@color/rebirth_1</item>
+        <item>@color/rebirth_2</item>
+        <item>@color/rebirth_3</item>
+        <item>@color/rebirth_4</item>
+        <item>@color/rebirth_5</item>
+        <item>@color/rebirth_6</item>
+        <item>@color/rebirth_7</item>
+        <item>@color/rebirth_8</item>
+    </array>
+</resources>

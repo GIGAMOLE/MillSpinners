@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Default colors-->
+    <color name="arc_1">#612e8d</color>
+    <color name="arc_2">#c32287</color>
+    <color name="arc_3">#ea225e</color>
+    <color name="arc_4">#ed5b35</color>
+    <color name="arc_5">#f5d52e</color>
+    <color name="arc_6">#81c540</color>
+    <color name="arc_7">#0e9286</color>
+    <color name="arc_8">#1764bc</color>
+
+    <!--Cool colors-->
+    <color name="cool_1">#e19049</color>
+    <color name="cool_2">#98352f</color>
+    <color name="cool_3">#996666</color>
+    <color name="cool_4">#8b2233</color>
+    <color name="cool_5">#bb1337</color>
+    <color name="cool_6">#d44944</color>
+    <color name="cool_7">#a15e39</color>
+    <color name="cool_8">#7d9841</color>
+
+    <!--Rebirth colors-->
+    <color name="rebirth_1">#2eaa4a</color>
+    <color name="rebirth_2">#00a4aa</color>
+    <color name="rebirth_3">#026699</color>
+    <color name="rebirth_4">#633393</color>
+    <color name="rebirth_5">#a91e23</color>
+    <color name="rebirth_6">#ffc74e</color>
+    <color name="rebirth_7">#abc178</color>
+    <color name="rebirth_8">#00b2d2</color>
+
+</resources>
