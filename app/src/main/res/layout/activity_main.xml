@@ -10,7 +10,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
-    
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:arc_spinner="http://schemas.android.com/apk/res-auto"
@@ -19,11 +19,9 @@ limitations under the License.
     tools:context=".MainActivity">
 
     <com.gigamole.millspinners.lib.MultiArcSpinner
-        android:id="@+id/semi"
+        android:id="@+id/multiArcSpinner"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:background="#ff242624"/>
 
 </RelativeLayout>
