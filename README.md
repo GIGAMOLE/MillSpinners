@@ -1,6 +1,5 @@
 Mill Spinners
 ===================
-----------
 
 The set of useful and beautiful spinners.
 
@@ -10,7 +9,6 @@ Currently the library is only one spinner - **MultiArcSpinner**. Later will appe
 
 Download
 ------------
--------------
 
 You can download a jar from GitHub's releases page.
 
