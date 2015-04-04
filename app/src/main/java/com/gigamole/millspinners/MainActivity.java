@@ -32,8 +32,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         final MultiArcSpinner semiCircleSetView = (MultiArcSpinner) findViewById(R.id.semi);
-        semiCircleSetView.setColors(getResources().getIntArray(R.array.rebirth_colors), true);
-        semiCircleSetView.setAutostarted(true);
+        semiCircleSetView.setAutostarted(false);
         semiCircleSetView.setOnClickListener(new View.OnClickListener() {
             int counter;
 
