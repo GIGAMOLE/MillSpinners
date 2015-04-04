@@ -9,7 +9,7 @@ Currently the library is only one spinner - [**MultiArcSpinner**](#multi_arc_spi
 Download
 ------------
 
-You can download a jar from GitHub's releases page.
+You can download a jar from GitHub's [releases page](https://github.com/GIGAMOLE/Mill-Spinners/releases).
 
 Or use Gradle jCenter:
 
@@ -73,6 +73,11 @@ Check out an code example:
         arc_spinner:autostart="false"
         arc_spinner:speed="5000"
         arc_spinner:slowdown="false"/>
+
+Getting Help
+======
+
+To report a specific problem or feature request, [open a new issue on Github](https://github.com/GIGAMOLE/Mill-Spinners/issues/new). 
 
 License
 ======
