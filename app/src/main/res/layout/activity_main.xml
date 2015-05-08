@@ -19,13 +19,11 @@ limitations under the License.
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:background="#ff474947"
-    android:gravity="center"
-    android:weightSum="2">
+    android:gravity="center">
 
     <com.gigamole.millspinners.lib.FigureSpinner
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
         spinners:sides="3"/>
 
 </LinearLayout>
