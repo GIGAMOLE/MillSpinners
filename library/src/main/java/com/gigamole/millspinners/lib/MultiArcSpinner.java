@@ -19,7 +19,6 @@ package com.gigamole.millspinners.lib;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
@@ -140,7 +139,6 @@ public class MultiArcSpinner extends FrameLayout {
         } else {
             this.diameter = h;
         }
-
         this.radius = this.diameter / 2;
 
         final int segment = (int) ((this.radius / this.arcViews.length) * 0.9);
@@ -215,9 +213,7 @@ public class MultiArcSpinner extends FrameLayout {
             }
 
             tempArcView.setRotateAnimation(this.tempAnimation);
-
             tempArcView.setLayoutParams(tempArcViewLayoutParams);
-            tempArcView.requestLayout();
 
             this.arcViews[i] = tempArcView;
             this.addView(tempArcView);
@@ -234,9 +230,15 @@ public class MultiArcSpinner extends FrameLayout {
 
     private class ArcView extends View {
 
-        Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG) {
+            {
+                setDither(true);
+                setAntiAlias(true);
+                setStyle(Paint.Style.STROKE);
+            }
+        };
 
-        private Animation anim;
+        private Animation animation;
 
         private int strokeWidth;
         private int circleMargin;
@@ -247,12 +249,6 @@ public class MultiArcSpinner extends FrameLayout {
 
         public ArcView(Context context) {
             super(context);
-
-            this.setBackgroundColor(Color.TRANSPARENT);
-
-            this.mPaint.setDither(true);
-            this.mPaint.setAntiAlias(true);
-            this.mPaint.setStyle(Paint.Style.STROKE);
         }
 
         private void start() {
@@ -281,29 +277,29 @@ public class MultiArcSpinner extends FrameLayout {
                     (float) (centerX - radius), (float) (centerX + radius),
                     (float) (centerX + radius));
 
-            canvas.drawArc(oval, this.startAngle, this.currentAngle, false, this.mPaint);
+            canvas.drawArc(oval, this.startAngle, this.currentAngle, false, this.paint);
             invalidate();
         }
 
-        public void setRotateAnimation(Animation anim) {
-            this.anim = anim;
+        public void setRotateAnimation(Animation animation) {
+            this.animation = animation;
 
             this.setDrawingCacheEnabled(true);
 
-            if (this.anim.getRepeatMode() != Animation.REVERSE && this.anim.getDuration() != this.halfSpeed) {
-                this.anim.setRepeatMode(Animation.RESTART);
-                this.anim.setDuration(this.speed);
+            if (this.animation.getRepeatMode() != Animation.REVERSE && this.animation.getDuration() != this.halfSpeed) {
+                this.animation.setRepeatMode(Animation.RESTART);
+                this.animation.setDuration(this.speed);
             }
 
-            this.anim.setRepeatCount(Animation.INFINITE);
-            this.anim.setFillEnabled(true);
-            this.anim.setFillAfter(true);
+            this.animation.setRepeatCount(Animation.INFINITE);
+            this.animation.setFillEnabled(true);
+            this.animation.setFillAfter(true);
 
             final AnimationSet animationSet = new AnimationSet(getContext(), null);
-            animationSet.addAnimation(this.anim);
+            animationSet.addAnimation(this.animation);
             animationSet.addAnimation(new ArcAnimation());
 
-            animationSet.setInterpolator(this.anim.getInterpolator());
+            animationSet.setInterpolator(this.animation.getInterpolator());
 
             clearAnimation();
             startAnimation(animationSet);
@@ -321,7 +317,7 @@ public class MultiArcSpinner extends FrameLayout {
 
         public void setStrokeWidth(int strokeWidth) {
             this.strokeWidth = strokeWidth;
-            this.mPaint.setStrokeWidth(this.strokeWidth);
+            this.paint.setStrokeWidth(this.strokeWidth);
         }
 
         public void setStartAngle(int startAngle) {
@@ -329,7 +325,7 @@ public class MultiArcSpinner extends FrameLayout {
         }
 
         public void setRoundCap() {
-            this.mPaint.setStrokeCap(Paint.Cap.ROUND);
+            this.paint.setStrokeCap(Paint.Cap.ROUND);
         }
 
         public void setSpeed(int speed, int halfSpeed) {
@@ -338,7 +334,7 @@ public class MultiArcSpinner extends FrameLayout {
         }
 
         public void setColor(int color) {
-            this.mPaint.setColor(color);
+            this.paint.setColor(color);
         }
 
         private boolean isStarting;

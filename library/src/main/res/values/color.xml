@@ -42,4 +42,39 @@ limitations under the License.
     <color name="rebirth_7">#abc178</color>
     <color name="rebirth_8">#00b2d2</color>
 
+    <!--B&W colors-->
+    <color name="bw_1">#e6e6dc</color>
+    <color name="bw_2">#262626</color>
+    <color name="bw_3">#e6e6dc</color>
+    <color name="bw_4">#262626</color>
+    <color name="bw_5">#e6e6dc</color>
+    <color name="bw_6">#262626</color>
+    <color name="bw_7">#e6e6dc</color>
+    <color name="bw_8">#262626</color>
+    <color name="bw_9">#e6e6dc</color>
+
+    <!--Retro colors-->
+    <color name="retro_1">#B12F40</color>
+    <color name="retro_2">#ac3a4b</color>
+    <color name="retro_3">#954c5c</color>
+    <color name="retro_4">#7e5f6c</color>
+    <color name="retro_5">#726875</color>
+    <color name="retro_6">#5b7b85</color>
+    <color name="retro_7">#448d96</color>
+    <color name="retro_8">#2da0a7</color>
+    <color name="retro_9">#16b3b8</color>
+
+    <!--White color-->
+    <color name="white">#ffffff</color>
+
+    <!--Wave colors-->
+    <color name="wave_3">#ffae12</color>
+    <color name="wave_1">#20a0aa</color>
+    <color name="wave_2">#ec4039</color>
+
+    <!--Cube colors-->
+    <color name="cube_3">#E54100</color>
+    <color name="cube_1">#980091</color>
+    <color name="cube_2">#E5AA00</color>
+
 </resources>

@@ -44,4 +44,41 @@ limitations under the License.
         <item>@color/rebirth_7</item>
         <item>@color/rebirth_8</item>
     </array>
+
+    <array name="bw_colors">
+        <item>@color/bw_1</item>
+        <item>@color/bw_2</item>
+        <item>@color/bw_3</item>
+        <item>@color/bw_4</item>
+        <item>@color/bw_5</item>
+        <item>@color/bw_6</item>
+        <item>@color/bw_7</item>
+        <item>@color/bw_8</item>
+        <item>@color/bw_9</item>
+    </array>
+
+    <array name="retro_colors">
+        <item>@color/retro_1</item>
+        <item>@color/retro_2</item>
+        <item>@color/retro_3</item>
+        <item>@color/retro_4</item>
+        <item>@color/retro_5</item>
+        <item>@color/retro_6</item>
+        <item>@color/retro_7</item>
+        <item>@color/retro_8</item>
+        <item>@color/retro_9</item>
+    </array>
+
+    <array name="wave_colors">
+        <item>@color/wave_3</item>
+        <item>@color/wave_2</item>
+        <item>@color/wave_1</item>
+    </array>
+
+    <array name="cube_colors">
+        <item>@color/cube_3</item>
+        <item>@color/cube_2</item>
+        <item>@color/cube_1</item>
+    </array>
+
 </resources>

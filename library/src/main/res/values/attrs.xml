@@ -12,12 +12,47 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources>
+
+    <attr name="speed" format="integer"/>
+    <attr name="rounded" format="boolean"/>
+    <attr name="colors" format="reference"/>
+    <attr name="reverse" format="boolean"/>
+
     <declare-styleable name="MultiArcSpinner">
-        <attr name="speed" format="integer"/>
-        <attr name="rounded" format="boolean"/>
-        <attr name="colors" format="reference"/>
-        <attr name="reverse" format="boolean"/>
-        <attr name="slowdown" format="boolean"/>
+        <attr name="speed"/>
+        <attr name="rounded"/>
+        <attr name="colors"/>
+        <attr name="reverse"/>
         <attr name="autostart" format="boolean"/>
+        <attr name="slowdown" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="FigureSpinner">
+        <attr name="speed"/>
+        <attr name="rounded"/>
+        <attr name="colors"/>
+        <attr name="reverse"/>
+        <attr name="sides" format="integer"/>
+        <attr name="rotated" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="DyingLightSpinner">
+        <attr name="speed"/>
+        <attr name="type" format="enum">
+            <enum name="BRACKET" value="1"/>
+            <enum name="CHAIN" value="0"/>
+        </attr>
+        <attr name="_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CirclesWaveSpinner">
+        <attr name="speed"/>
+        <attr name="colors"/>
+    </declare-styleable>
+
+    <declare-styleable name="CubeSpinner">
+        <attr name="speed"/>
+        <attr name="colors"/>
     </declare-styleable>
 </resources>
+

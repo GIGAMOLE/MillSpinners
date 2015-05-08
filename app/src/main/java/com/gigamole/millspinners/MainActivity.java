@@ -20,9 +20,6 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-
-import com.gigamole.millspinners.lib.MultiArcSpinner;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -30,21 +27,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        final MultiArcSpinner semiCircleSetView = (MultiArcSpinner) findViewById(R.id.multiArcSpinner);
-        semiCircleSetView.setAutostarted(false);
-        semiCircleSetView.setOnClickListener(new View.OnClickListener() {
-            int counter;
-
-            @Override
-            public void onClick(View v) {
-                if (counter++ % 2 == 0) {
-                    semiCircleSetView.start();
-                } else {
-                    semiCircleSetView.finish();
-                }
-            }
-        });
     }
 
 
