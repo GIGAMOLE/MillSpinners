@@ -11,7 +11,7 @@ Currently the library contains following spinners:
  - [**CubeSpinner**](#cs).
  - [**DyingLightSpinner**](#dls).
  - [**FigureSpinner**](#fs).
- 
+
 Wait for new.
 
 U can check the sample app [here](https://github.com/GIGAMOLE/Mill-Spinners/tree/master/app).
@@ -58,10 +58,10 @@ You can set such parameters as:
 
  - speed
  - colors
- - reversibility 
+ - reversibility
  - color
  - autostart
- - roundness 
+ - roundness
  - slowdown
 
 Also given the opportunity to start and finish the animation by hand.
@@ -79,7 +79,7 @@ Check out an code example:
         arc_spinner:autostart="false"
         arc_spinner:speed="5000"
         arc_spinner:slowdown="false"/>
-        
+
 <a name="cws"></a>CirclesWaveSpinner
 ------------
 ![enter image description here](https://lh5.googleusercontent.com/-PaQXf0zlY5E/VU00AZvffaI/AAAAAAAAAa4/VH36UhvzXl4/w153-h165-no/cws.gif)
@@ -88,7 +88,7 @@ You can set such parameters as:
 
  - speed
  - colors
- 
+
 <a name="cs"></a>CubeSpinner
 ------------
 ![enter image description here](https://lh4.googleusercontent.com/-ysG5WmZKG0w/VU00Ao5_MDI/AAAAAAAAAa0/bYf3v90XpcA/w144-h146-no/cs.gif)
@@ -123,7 +123,7 @@ You can set such parameters as:
 Getting Help
 ======
 
-To report a specific problem or feature request, [open a new issue on Github](https://github.com/GIGAMOLE/Mill-Spinners/issues/new). 
+To report a specific problem or feature request, [open a new issue on Github](https://github.com/GIGAMOLE/Mill-Spinners/issues/new).
 
 License
 ======
