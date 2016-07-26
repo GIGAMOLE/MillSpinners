@@ -1,7 +1,7 @@
 Mill Spinners
 =============
 
-[DEPRECATED] The set of useful and beautiful spinners.
+<b>\[DEPRECATED\]</b> The set of useful and beautiful spinners.
 
 [![DevLight](https://lh4.googleusercontent.com/-9btnRFp_eVo/V5cfwZsBpMI/AAAAAAAAC4E/s4NGoezKhpAVdVofAoez1QWpzK5Na8_cQCL0B/w147-h20-no/devlight-badge.png)](http://devlight.com.ua)
 
