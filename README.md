@@ -19,12 +19,12 @@ The library contains following spinners:
  - [**DyingLightSpinner**](#dls).
  - [**FigureSpinner**](#fs).
 
-You can check the sample app [here](https://github.com/DevLight-Mobile-Agency/Mill-Spinners/tree/master/app).
+You can check the sample app [here](https://github.com/DevLight-Mobile-Agency/MillSpinners/tree/master/app).
 
 Download
 ------------
 
-You can download a `.jar` from GitHub's [releases page](https://github.com/DevLight-Mobile-Agency/Mill-Spinners/releases).
+You can download a `.jar` from GitHub's [releases page](https://github.com/DevLight-Mobile-Agency/MillSpinners/releases).
 
 Or use Gradle jCenter:
 
@@ -137,11 +137,11 @@ You can set such parameters as:
 Getting Help
 ======
 
-To report a specific problem or feature request, [open a new issue on Github](https://github.com/DevLight-Mobile-Agency/Mill-Spinners/issues/new).
+To report a specific problem or feature request, [open a new issue on Github](https://github.com/DevLight-Mobile-Agency/MillSpinners/issues/new).
 
 License
 ======
-Apache 2.0 and MIT. See [LICENSE](https://github.com/DevLight-Mobile-Agency/Mill-Spinners/blob/master/LICENSE.txt) file for details.
+Apache 2.0 and MIT. See [LICENSE](https://github.com/DevLight-Mobile-Agency/MillSpinners/blob/master/LICENSE.txt) file for details.
 
 
 Author
