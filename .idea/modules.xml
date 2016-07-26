@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Mill-Spinners.iml" filepath="$PROJECT_DIR$/Mill-Spinners.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MillSpinners.iml" filepath="$PROJECT_DIR$/MillSpinners.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
   </component>
 </project>
-
