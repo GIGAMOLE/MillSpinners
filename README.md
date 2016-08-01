@@ -152,5 +152,5 @@ Support
 If you'd like to support future development and new product features, please make a payments on Gratipay and Beerpay or become a patron on Patreon.
 
 [![Gratipay](https://img.shields.io/gratipay/user/gigamole.svg?maxAge=2592000)](https://gratipay.com/~GIGAMOLE/)
-[![Beerpay](https://beerpay.io/DevLight-Mobile-Agency/MillSpinners/badge.svg?style=beer-square)](https://beerpay.io/DevLight-Mobile-Agency/MillSpinners)
+[![Beerpay](https://beerpay.io/DevLight-Mobile-Agency/MillSpinners/badge.svg?style=flat)](https://beerpay.io/DevLight-Mobile-Agency/MillSpinners)
 [![Patreon](https://lh5.googleusercontent.com/-lXI_oKp5724/V58ysdDtxHI/AAAAAAAAC7s/g91W_YT2SM0Q_VaIhDAMmoe-jHPP3ijJwCL0B/w140-h20-no/patreon-badge.png)](https://www.patreon.com/gigamole)
