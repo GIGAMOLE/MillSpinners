@@ -135,8 +135,18 @@ You can set such parameters as:
 - rotating
 
 License
-======
+=======
+
 Apache 2.0 and MIT. See [LICENSE](https://github.com/DevLight-Mobile-Agency/MillSpinners/blob/master/LICENSE.txt) file for details.
+
+Support
+=======
+
+If you'd like to support future development and new product features, please make a payments on Gratipay and Beerpay or become a patron on Patreon.
+
+[![Gratipay](https://img.shields.io/gratipay/user/gigamole.svg?maxAge=2592000)](https://gratipay.com/~GIGAMOLE/)
+[![Beerpay](https://beerpay.io/DevLight-Mobile-Agency/MillSpinners/badge.svg)](https://beerpay.io/DevLight-Mobile-Agency/MillSpinners)
+[![Patreon](https://lh5.googleusercontent.com/-lXI_oKp5724/V58ysdDtxHI/AAAAAAAAC7s/g91W_YT2SM0Q_VaIhDAMmoe-jHPP3ijJwCL0B/w140-h20-no/patreon-badge.png)](https://www.patreon.com/gigamole)
 
 Author
 =======
