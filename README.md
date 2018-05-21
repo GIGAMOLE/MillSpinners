@@ -11,6 +11,16 @@ Mill Spinners
 
 ![](https://lh3.googleusercontent.com/-bzGxaA_Oyk4/VR-miVWxGrI/AAAAAAAAAZE/tuTVk2dcRyQ/s0/Untitled-4.png "logo_title.png")
 
+Warn
+====
+```
+This library is not more supported. 
+If you want to add new feature or fix a bug, grab source code and do it. 
+If you think your fix or feature would be useful to other developers, 
+I can add link of your repository to this README file. 
+Thank you for using our libraries.
+```
+
 The library contains following spinners:
 
  - [**MultiArcSpinner**](#multi_arc_spinner).
